@@ -1,16 +1,16 @@
 ## yolo3, Darknet AI Detector, QT5.15.2, Jetson Xavier NX
 Program use Darknet Yolo in QT5.15.2. Test on Jetson Xavier NX. <BR/>
-#I) OPENCV:
+# I) OPENCV:
 Use scrypt from here:
 https://github.com/mdegans/nano_build_opencv/blob/master/build_opencv.sh
 ```sh
 ./build_opencv.sh 4.6.0
 ```
-#II) QT5.15.2
+# II) QT5.15.2
 Jetson use QT5 max You can compile 5.15.2. But you can try higher ;)
 Here is https://forums.developer.nvidia.com/t/jetson-nano-and-qt5/76870/13 
 
-#III) Darnet with YOLO:
+# III) Darnet with YOLO:
 author:
 https://pjreddie.com/darknet/yolo/ <BR/>
 Install from: https://github.com/AlexeyAB/darknet
