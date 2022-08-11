@@ -10,7 +10,7 @@ https://github.com/mdegans/nano_build_opencv/blob/master/build_opencv.sh
 Jetson use QT5 max You can compile 5.15.2. But you can try higher ;)
 Here is https://forums.developer.nvidia.com/t/jetson-nano-and-qt5/76870/13 
 
-# III) Darnet with YOLO:
+# III) Darknet with YOLO:
 author:
 https://pjreddie.com/darknet/yolo/ <BR/>
 Install from: https://github.com/AlexeyAB/darknet
@@ -18,11 +18,11 @@ Install from: https://github.com/AlexeyAB/darknet
 git clone https://github.com/AlexeyAB/darknet
 cd darknet
 ```
-Edite Makefile:
+Edit Makefile:
 ```sh
 sudo gedit Makefile
 ```
-Change Makefile for this. Use ARCH 72 in Xavier :
+Change Makefile for OPENCV, GPU, CUDNN and ARCH 72 in Xavier :
 ```sh
 GPU=1
 CUDNN=1
